@@ -1,163 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- mobile metas -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- site metas -->
-<title>BPMTrack</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">	
-<!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<!-- style css -->
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- Responsive-->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- fevicon -->
-<link rel="icon" href="images/fevicon.png" type="image/gif" />
-<!-- Scrollbar Custom CSS -->
-<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-<!-- Tweaks for older IEs-->
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesoeet" href="css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BPMTrack</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- header section start-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-#462651">
-        <a class="logo" href="#"><img src="images/LOGO1.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                   <a id="home" class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                   <a id="product" class="nav-link" href="search jobs.html">PRODUCT</a>
-                </li>
-                <li class="nav-item">
-                   <a id="services" class="nav-link" href="recurments.html">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                   <a id="contact" class="nav-link" href="companies.html">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                   <a id="about" class="nav-link" href="services.html">ABOUT</a>
-                </li>
-                
-            </ul>
-        </div>
-         <div id="login" class="login_text"><a href="login.html">LOGIN</a></div>
-    </nav>
-	<!-- header section start-->
-	<!-- banner section start-->
-	<div class="banner_section layout_padding">
+	<nav class="navbar navbar-expand-lg shadow-lg fixed-top">
 		<div class="container">
-			<h1 class="best_taital">We Provide Good Music <br>
-				For Good Listeners</h1>
-		    <p class="there_text">Performing a great Set of music needs to be with great songs. <br>
-				So we provide the best song for those DJ who needs great Set</p>
-		    <div class="bt_main">
-		    	<div class="discover_bt"><a href="#">Product</a></div>
-		    </div>
-		</div>
-	</div>
-	
-	
-	
-	<!-- banner section end-->
-	<div class="product">
-		<h1 id="product">Product</h1>
-		<h6 id="deskripsi">These are our Product that we can offer for your DJ performance <br> collection music or your daily bases listening collection</h6>
-	  </div>
-	
-	  <div class="service">
-	  </div>
-	  <div class="container-card">
-		<div class="card border-0 card1 " style="width: 18rem;">
-		  <img src="images/3.png" class="card-img-top" alt="...">
-		  <div class="card-body">
-			<h5 class="card-title">Bundle Package</h5>
-			<p class="card-text">Contains various sets of tracks or live sets from other DJs for your song collection</p>
-			<div class="btn-card1">
-			  <a href="#" class="btn">See More...</a>
-			</div>
+		  <a class="navbar-brand" href="#">BPMTrack</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse text-right" id="navbarText">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="product">Product</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="service">Service</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact">Contact</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="about">About</a>
+			  </li>
+			</ul>
+			
 		  </div>
 		</div>
+	  </nav>
+
+	  <div class="container-fluid banner">
+		<div class="container text-center">
+			<h1 class="text-1">We Provide Good Music <br> For Good Listeners</h1>
+			<h5 class="text-2">Performing a great Set of music needs to be with great songs. <br>So we provide the best song for those DJ who needs great Set</h5>
+			<a href="product">
+				<button type="button" class="btn btn-lg">Product</button>
+			</a>
+		</div>
+	  </div>
+
+	  <div class="bagian-product">
+		<h2>Product</h2>
+		<p>These are our Product that we can offer for your DJ performance <br> collection music or your daily bases listening collection</p>
+	  </div>
+
+	  <div class="wrapper">
+		<div class="card">
+			<img src="images/3.png" alt="">
+			<div class="info">
+				<h1>Bundle Package</h1>
+				<p>Contains various sets of tracks or live sets from other DJs for your song collection</p>
+				<a href="" class="btn">See More...</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<img src="images/4.png" alt="">
+			<div class="info">
+				<h1>Produce</h1>
+				<p>Ever thought on having your own track? We can create your track based on your request and type of music</p>
+				<a href="" class="btn">See More...</a>
+			</div>
+		</div>
+	  </div>
+
+	  <div class="container-fluid banner1">
+		<div class="container text-center">
+			<h1 class="text-3">Bundle Package</h1>
+			<h5 class="text-4">get your preference song for your gigs <br> 
+				and your listening on daily bases </h5>
+			<a href="product">
+				<button type="button" class="btn1 btn-lg">Amapiano Pack</button>
+				<button type="button" class="btn1 btn-lg">Tech House Pack</button>
+				<button type="button" class="btn1 btn-lg">Baile Pack</button>
+			</a>
+			<a href="product">
+				<button type="button" class="btn1 btn-lg">Tropical House Pack</button>
+				<button type="button" class="btn1 btn-lg">RNB HIPHOP Pack</button>
+				<button type="button" class="btn1 btn-lg">Moombahton Pack</button>
+			</a>
+			<a href="product">
+				<button type="button" class="btn1 btn-lg">Deep House Pack</button>
+				<button type="button" class="btn1 btn-lg">Electro Pack</button>
+				<button type="button" class="btn1 btn-lg">Progressive Pack</button>
+			</a>
+			<a href="product">
+				<button type="button" class="btn1 btn-lg">House Pack</button>
+				<button type="button" class="btn1 btn-lg">Techno Pack</button>
+				<button type="button" class="btn1 btn-lg">Trance Pack</button>
+			</a>
+		</div>
+	  </div>
+
+
+	  <div class="container-fluid banner2">
+		<div class="container text-center">
+			<h1 class="text-5">Product</h1>
+			<h5 class="text-6">Calling all DJs! Elevate your sets to new heights with our cutting-edge music production services tailored specifically for DJs. Our team of professional music producers will work hand-in-hand with you to create mind-blowing remixes, original tracks, and seamless transitions that will leave the crowd begging for more. Unleash your DJ prowess and make your mark on the dancefloor with our unrivaled expertise. Let's make magic together!</h5>
+		</div>
+		<div class="container-1">
+			<div class="description-container">
+				<img src="images/9.png" alt="" class="img-responsive floating-image right">
+
+				<h3>Testimony</h3>
+				<p>“Thank you for the mix! Very happy with the final result. the producer works incredibly fast, and his communication is second to none. His experience has really helped me bring my song to its fullest potential. I will definitely be back for my next project.”  Anthony M </p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<img src="images/10.png" alt="" class="img-responsive floating-image left">
+				<h3>Testimony</h3>
+				<p>
+					“Absolutely wonderful to work with. Delivered exactly what I had envisioned for my songs, and some of them even above and beyond what I imagined was possible. Very friendly and professional. I can’t recommend Chris more for your project.” Jacob 
+				</p>
+			</div>
+		</div>
+	  </div>
 	  
-		<div class="card border-0 card3" style="width: 18rem;">
-		  <img src="images/4.png" class="card-img-top" alt="...">
-		  <div class="card-body">
-			<h5 class="card-title">Produce</h5>
-			<p class="card-text">Ever thought on having your own track? We can create your track based on your.</p>
-			<div class="btn-card3">
-			  <a href="#" class="btn">See More...</a>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	<!-- product -->
-	<div class="product1">
-		<div class="nama">
-			<h1 id="product1">Product</h1>
-		</div>
-		<div class="deskripsi">
-			<h6 id="deskripsi1">Calling all DJs! Elevate your sets to new heights with our cutting-edge music production services tailored specifically for DJs. Our team of professional music producers will work hand-in-hand with you to create mind-blowing remixes, original tracks, and seamless transitions that will leave the crowd begging for more. Unleash your DJ prowess and make your mark on the dancefloor with our unrivaled expertise. Let's make magic together!</h6>
-		</div>
-	</div>
-	<!-- End Product -->
-
-	<!-- marketing section start-->
-	
-	<!-- marketing section end-->
-	<!-- Industrial section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-5">
-					<div class="job_section">
-					    <h1 class="jobs_text" id="testimoni">Testimony</h1>
-					    <p class="dummy_text" id="deskripsi2">“Thank you for the mix! Very happy with the final result. the producer works incredibly fast, and his communication is second to none. His experience has really helped me bring my song to its fullest potential. I will definitely be back for my next project.”  Anthony M </p>
-					</div>
-				</div>
-				<div class="col-md-6 padding_0">
-					<div class="image_1"><img src="images/9.png"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	
-	<!-- Industrial section end-->
-	<!-- Corporate section start-->
-	<div class="marketing_section layout_padding">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="image_1 padding_0"><img src="images/10.png"></div>
-				</div>
-				<div class="col-md-6">
-					<div class="job_section_2">
-					    <p class="dummy_text" id="deskripsi3">“Absolutely wonderful to work with. Delivered exactly what I had envisioned for my songs, and some of them even above and beyond what I imagined was possible. Very friendly and professional. I can’t recommend Chris more for your project.” Jacob </p>
-					</div>
-				</div>
-			</div>
-			<div class="apply_bt"><a href="#">Get Contact</a></div>
-
-		</div>
-	</div>
 	<!-- Corporate section end-->
 	<!-- Government section start-->
 	
@@ -237,30 +204,18 @@
         </div>
 
     </footer>
-	<!-- copyright section end-->
 
 
-    <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-      <script>
-      $(document).ready(function(){
-      $(".fancybox").fancybox({
-         openEffect: "none",
-         closeEffect: "none"
-         });
-         </script>
 
 
-     
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
